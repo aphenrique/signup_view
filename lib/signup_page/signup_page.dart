@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 class SignupPage extends StatelessWidget {
   SignupPage({Key? key}) : super(key: key);
 
-  bool radioValue = false;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,7 +54,7 @@ class SignupPage extends StatelessWidget {
                         children: [
                           Checkbox(
                             visualDensity: VisualDensity.compact,
-                            value: radioValue,
+                            value: false,
                             onChanged: (value) {},
                           ),
                           Expanded(
