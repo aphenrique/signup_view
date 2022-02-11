@@ -17,7 +17,7 @@ class SignupPage extends StatelessWidget {
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
-              height: MediaQuery.of(context).size.height - 260,
+              height: MediaQuery.of(context).size.height * 0.65,
               width: double.infinity,
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
